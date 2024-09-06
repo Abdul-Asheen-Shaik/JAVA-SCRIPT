@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        Enter your name : <input type="text" id="fname" onblur="myfunction()">
+        <script>
+            function myfunction(){
+               let x = document.getElementById("fname");
+               x.value = x.value.toUppercase();
+            }
+        </script>
+    </body>
+</html>
